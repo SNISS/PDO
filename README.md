@@ -1,2 +1,2 @@
 # PDO
-basic PDO for modern applications
+example of  PDO for modern applications
