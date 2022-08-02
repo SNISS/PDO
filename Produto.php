@@ -26,7 +26,7 @@ class Produto {
         try{
         $this->conexao = new PDO(/*host e nome da db*/'mysql:host=mysql;dbname=exemplo',/*user*/'user',/*senha*/'123');
     }catch(Exception $e){
-        echo $e->getMessage(); //em aplicações reais temos que filtrar o erro
+        echo $e->getMessage(); //em aplicações reais temos que filtrar para não retornar a mensagem de erro pura para os usuarios 
         die();
     }
  } 
